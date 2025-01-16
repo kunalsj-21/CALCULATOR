@@ -9,14 +9,14 @@ body{
 #calculator{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(251, 255, 0);
-    border-radius: 20px;
-    max-width: 500 px;
+    border-radius: 2px;
+    max-width: 50 px;
 overflow: hidden;
 }
 #display{
     width: 100%;
-    padding: 20px;
-    font-size: 5rem;
+    padding: 2px;
+    font-size: 0.5rem;
     text-align: left;
     border: none;
     background-color: rgb(100, 102, 4);
@@ -25,17 +25,17 @@ overflow: hidden;
 #keys{
 display: grid;
 grid-template-columns: repeat(4,1fr);
-gap: 10px;
-padding: 25px;
+gap: 1px;
+padding: 2.5px;
 }
 button{
-    width: 100px;
-    height: 100px;
-    border-radius: 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 4px;
     border: none;
     background-color: black;
     color: white;
-    font-size: 3rem;
+    font-size: 0.2rem;
     font-weight: bold;
     cursor: pointer;
 }
